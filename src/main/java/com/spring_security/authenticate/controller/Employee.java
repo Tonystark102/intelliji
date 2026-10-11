@@ -13,6 +13,7 @@ public class Employee {
     public String hello()
     {
         System.out.println("hi");
+        System.out.println("hi");
         return "hello";
     }
     @GetMapping("/hi")
