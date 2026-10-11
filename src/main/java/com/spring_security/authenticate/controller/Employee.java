@@ -12,7 +12,7 @@ public class Employee {
     @GetMapping("/hello")
     public String hello()
     {
-        System.out.println("hi")
+        System.out.println("hi");
         return "hello";
     }
     @GetMapping("/hi")
